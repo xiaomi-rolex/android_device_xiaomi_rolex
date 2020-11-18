@@ -179,7 +179,7 @@ TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 VENDOR_SECURITY_PATCH := 2020-06-05
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
