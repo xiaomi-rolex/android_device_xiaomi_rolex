@@ -177,3 +177,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Network Indicator
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.kernel.ebpf.supported=true
