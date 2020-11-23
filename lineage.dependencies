@@ -1,10 +1,12 @@
 [
- {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
-},
- {
-   "repository": "android_kernel_xiaomi_msm8937",
-   "target_path": "kernel/xiaomi/msm8917"
+ { "repository": "Nick89786/android_kernel_xiaomi_msm8937",
+   "target_path": "kernel/xiaomi/msm8917",
+   "remote": "github",
+   "branch": "lineage-17.1_4.9"
+ },
+ { "repository": "Flashmaniacs/vendor_xiaomi_rolex",
+   "target_path": "vendor/xiaomi",
+   "remote": "github",
+   "branch": "lineage-18.0"
  }
 ]
